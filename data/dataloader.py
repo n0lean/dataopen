@@ -6,9 +6,9 @@ class DataFactory(object):
     def __init__(self):
         self.dataset_name = None
         self.dataset_path = {
-            'job_listing': './schema/dataset_1.csv',
-            'uk_employment': './schema/dataset_2.csv',
-            'uk_labor': './schema/dataset_3.csv',
+            'job_listing': './schema/job_listing.csv',
+            'uk_employment': './schema/employment_by_occupation.csv',
+            'uk_labor': './schema/labor_market_statistics.csv',
             # 'citizen_application': './schema/dataset_4.csv',
             # 'lse': './schema/dataset_5.csv',
             # 'acts': './schema/dataset_6.csv',
